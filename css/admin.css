@@ -1,0 +1,71 @@
+.image-field {
+    margin-bottom: 15px;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.image-field:hover {
+    border-color: #2271b1;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+.image-field-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.image-field .image-url {
+    flex: 1;
+    min-width: 200px;
+}
+
+.image-field .button {
+    margin: 0;
+    height: 30px;
+    line-height: 28px;
+}
+
+.image-preview {
+    margin-top: 10px;
+    min-height: 40px;
+    position: relative;
+}
+
+.image-preview img {
+    max-width: 200px;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 3px;
+    background: #fff;
+    border-radius: 2px;
+}
+
+#add-image-field {
+    margin: 15px 0;
+    padding: 5px 15px;
+}
+
+.image-field .remove-image {
+    color: #b32d2e;
+    border-color: #b32d2e;
+}
+
+.image-field .remove-image:hover {
+    color: #fff;
+    background: #b32d2e;
+}
+
+textarea[name="le_auto_img_options[custom_css]"] {
+    font-family: monospace;
+    width: 100%;
+    max-width: 600px;
+    min-height: 100px;
+    padding: 8px;
+    border-radius: 4px;
+} 
