@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: LeAutoImg
- * Plugin URI:  https://www.lezaiyun.com/849.html
+ * Plugin URI:  https://www.laojiang.me/7242.html
  * Description: 实现无图文章中插入随机的预设值图片功能。公众号：<span style="color: red;">老蒋朋友圈</span>
  * Version: 1.0.0
  * Author: 老蒋和他的小伙伴
- * Author URI: https://www.lezaiyun.com/
+ * Author URI: https://www.laojiang.me
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: https://www.laojiang.me/
@@ -55,7 +55,7 @@ class LeAutoImg {
         ?>
         <div class="wrap">
             <h2>LeAutoImg 设置</h2>
-            <p>实现无图文章中插入随机的预设值图片功能。插件介绍：<a href="https://www.lezaiyun.com/849.html" target="_blank">点击这里</a>。公众号：<span style="color: red;">老蒋朋友圈</span></p>
+            <p>实现无图文章中插入随机的预设值图片功能。插件介绍：<a href="https://www.laojiang.me/7242.html" target="_blank">点击这里</a>。公众号：<span style="color: red;">老蒋朋友圈</span></p>
             <form method="post" action="options.php">
                 <?php
                 settings_fields('le_auto_img_options_group');
